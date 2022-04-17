@@ -18,15 +18,15 @@ const imagesGallery = document.querySelector('ul');
 const imagesGalleryTotalList = images
   .map(({ url, alt }) =>
     `<li>
-      <img src = '${url}' alt = '${alt}' width='480'>
+      <img src = '${url}' alt = '${alt}' width='320'>
     </li>`)
   .join('');
 
 imagesGallery.insertAdjacentHTML("afterbegin", imagesGalleryTotalList);
 
-imagesGallery.style = `
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  `;
-imagesGallery.style.listStyle = "none";
+// imagesGallery.style = `
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   `;
+// imagesGallery.style.listStyle = "none";
