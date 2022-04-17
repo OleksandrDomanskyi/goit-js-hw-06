@@ -14,7 +14,6 @@ const images = [
 ];
 
 const imagesGallery = document.querySelector('ul');
-console.log(imagesGallery);
 
 const imagesGalleryTotalList = images
   .map(({ url, alt }) =>
